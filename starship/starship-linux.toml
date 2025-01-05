@@ -4,19 +4,19 @@
 add_newline = false
 command_timeout = 1000
 format = """\
-[╭┈](#685AFF) $os$custom$hostname$username$directory \ 
+[╭┈](#008df8) $os$custom$hostname$username$directory \ 
 [](238)
-[╰─⊳](#685AFF)$character"""
+[╰─⊳](#008df8)$character"""
 
 # Drop ugly default prompt characters
 [character]
 success_symbol = ''
-error_symbol = ''
+error_symbol = '💀'
 
 # ---
 [localip]
 ssh_only = false
-format = 'on [$localipv4](#685AFF bold) '
+format = 'on [$localipv4](#008df8 bold) '
 disabled = false
 
 
@@ -33,8 +33,8 @@ Linux = ""
 
 # Shows the username
 [username]
-style_user = 'bold #685AFF'
-style_root = 'bold #685AFF'
+style_user = 'bold #008df8'
+style_root = 'bold #008df8'
 format = 'as [$user]($style) '
 disabled = false
 show_always = true
@@ -44,7 +44,7 @@ show_always = true
 # Shows the hostname
 [hostname]
 ssh_only = false
-format = 'on [$hostname](#685AFF bold) '
+format = 'on [$hostname](#008df8 bold) '
 disabled = false
 
 
@@ -55,7 +55,7 @@ truncation_symbol = '…/'
 home_symbol = '󰋜 ~'
 read_only_style = '197'
 read_only = '  '
-format = 'at [$path](#685AFF bold)[$read_only](#685AFF bold) '
+format = 'at [$path](#008df8 bold)[$read_only](#008df8 bold) '
 
 
 # Shows current git branch
