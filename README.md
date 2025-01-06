@@ -9,6 +9,7 @@
 - starship(Windows & Linux)
 - zshrc
 - Kitty
+- Rofi
 
 ### StarShip
 
@@ -20,3 +21,11 @@
 ## Kitty Terminal
 
 ![text](Images/Kitty-Linux-Terminal.png)
+
+## Rofi App Launcher
+
+![text](Images/rofi.png)
+
+## Wallpaper
+
+![text](Wallpaper/wallpaper.png)
